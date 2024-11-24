@@ -7,3 +7,6 @@ if(age >= 18){
     console.log ("you are old enough to enter the site");
 
 }
+else{
+    console.log ("You must be 18+ to enter this state");
+}

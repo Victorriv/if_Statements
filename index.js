@@ -1,7 +1,7 @@
 // IF STATEMENTS = if a condition is true, execute some code if not, do something
 
 
-let age = 25; 
+/*let age = 10; 
 
 if(age >= 18){
     console.log ("you are old enough to enter the site");
@@ -9,4 +9,11 @@ if(age >= 18){
 }
 else{
     console.log ("You must be 18+ to enter this state");
-}
+} */
+
+
+
+    // Another example!!!!!!!
+
+
+    

@@ -46,3 +46,7 @@ if (time < 12){
 
     let age = 30;
     let hasliscense = false;
+
+    if(age >=16){
+        console.log("You are old enough to drive");
+    }

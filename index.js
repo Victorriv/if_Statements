@@ -26,6 +26,10 @@ if (time < 12){
 } */
 
 
+
+    /*
+
+
     // BOOLEAN
     let isStudent=  false;
 
@@ -34,3 +38,11 @@ if (time < 12){
     }else {
         console.log("You are not a student");
     }
+
+    */
+
+
+    ///NESTED IF STATEMENTS .....
+
+    let age = 30;
+    let hasliscense = false;

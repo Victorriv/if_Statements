@@ -44,7 +44,7 @@ if (time < 12){
 
     ///NESTED IF STATEMENTS .....
 
-    let age = 30;
+   /* let age = 30;
     let hasliscense = true;
 
     if(age >=16){
@@ -59,4 +59,15 @@ if (time < 12){
 
     }else{
         console.log('You must be 16+ to have a license');
-    }
+    } 
+        */
+
+
+       // ELSE IF STATEMENTS
+
+
+       let age = 18;
+
+       if(age>=18){
+        console.log("You are old enough to enter this site");
+       }

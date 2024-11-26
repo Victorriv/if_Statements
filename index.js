@@ -49,4 +49,6 @@ if (time < 12){
 
     if(age >=16){
         console.log("You are old enough to drive");
+    }else{
+        console.log('You must be 16+ to have a license');
     }

@@ -51,7 +51,9 @@ if (time < 12){
         console.log("You are old enough to drive");
 
         if(hasliscense){
-            console.log("You have your license")
+            console.log("You have your license");
+        }else  {
+            console.log( "You do not have your license yet!");
         }
 
 

@@ -66,7 +66,7 @@ if (time < 12){
        // ELSE IF STATEMENTS
 
 
-       let age = 18;
+       let age = -1;
 
        if(age >= 18){
         console.log("You are old enough to enter this site");

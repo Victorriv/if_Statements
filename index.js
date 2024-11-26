@@ -45,7 +45,7 @@ if (time < 12){
     ///NESTED IF STATEMENTS .....
 
     let age = 30;
-    let hasliscense = false;
+    let hasliscense = true;
 
     if(age >=16){
         console.log("You are old enough to drive");

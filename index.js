@@ -68,10 +68,16 @@ if (time < 12){
 
        let age = 18;
 
-       if(age>=18){
+       if(age >= 18){
         console.log("You are old enough to enter this site");
-       }else{
-        console.log("You must be 18+ to enter this site");
+       }
+       else if (age < 0){
+        console.log("Your age cant be below 0");
 
        }
        
+       
+       else{
+        console.log("You must be 18+ to enter this site");
+
+       }

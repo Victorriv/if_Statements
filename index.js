@@ -75,6 +75,11 @@ if (time < 12){
 
        mySubmit.onclick = function{
 
+
+
+
+        age = myText.value; // the myText.value, gets the value from the text box and puts it into age. 
+
         if (age >= 100){
             console.log("You are too old to enter this site");
            }

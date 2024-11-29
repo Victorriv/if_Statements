@@ -73,7 +73,7 @@ if (time < 12){
 
 
 
-       mySubmit.onclick = function{
+       mySubmit.onclick = function(){
 
 
 

@@ -75,7 +75,27 @@ if (time < 12){
 
        mySubmit.onclick = function{
 
-        
+        if (age >= 100){
+            console.log("You are too old to enter this site");
+           }
+           else if(age == 0){
+            console.log("you cant enter this site, you were just born");
+           }
+           else if(age >= 18){
+            console.log("You are old enough to enter this site");
+           }
+           else if (age < 0){
+            console.log("Your age cant be below 0");
+    
+           }
+           
+           else{
+            console.log("You must be 18+ to enter this site");
+    
+           }
+    
+
+
        }
 
 
@@ -83,21 +103,4 @@ if (time < 12){
 
 
 
-       if (age >= 100){
-        console.log("You are too old to enter this site");
-       }
-       else if(age == 0){
-        console.log("you cant enter this site, you were just born");
-       }
-       else if(age >= 18){
-        console.log("You are old enough to enter this site");
-       }
-       else if (age < 0){
-        console.log("Your age cant be below 0");
-
-       }
-       
-       else{
-        console.log("You must be 18+ to enter this site");
-
-       }
+    

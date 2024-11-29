@@ -67,6 +67,8 @@ if (time < 12){
 
         const myText= document.getElementById(" myText");
         const mySubmit = document.getElementById("mySubmit");
+        const resultElement = document.getElementById("resultElement");
+        
        let age = 0;
 
        if (age >= 100){

@@ -68,8 +68,20 @@ if (time < 12){
         const myText= document.getElementById(" myText");
         const mySubmit = document.getElementById("mySubmit");
         const resultElement = document.getElementById("resultElement");
-        
+
        let age = 0;
+
+
+
+       mySubmit.onclick = function{
+
+        
+       }
+
+
+
+
+
 
        if (age >= 100){
         console.log("You are too old to enter this site");

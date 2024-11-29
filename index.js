@@ -79,6 +79,7 @@ if (time < 12){
 
 
         age = myText.value; // the myText.value, gets the value from the text box and puts it into age. 
+        age = Number(age); // we need to type cast age into a number, because text from a text box is just text
 
         if (age >= 100){
             console.log("You are too old to enter this site");

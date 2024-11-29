@@ -69,7 +69,7 @@ if (time < 12){
         const mySubmit = document.getElementById("mySubmit");
         const resultElement = document.getElementById("resultElement");
 
-       let age = 0;
+       let age;
 
 
 

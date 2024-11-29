@@ -63,9 +63,10 @@ if (time < 12){
         */
 
 
-       // ELSE IF STATEMENTS
+       // ELSE IF STATEMENTS   1:28:30
 
         const myText= document.getElementById(" myText");
+        const mySubmit = document.getElementById("mySubmit");
        let age = 0;
 
        if (age >= 100){

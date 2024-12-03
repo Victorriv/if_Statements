@@ -94,7 +94,7 @@ if (time < 12){
             
            }
            else if (age < 0){
-            console.log("Your age cant be below 0");
+            resultElement.textContent = `our age cant be below 0`;
     
            }
            

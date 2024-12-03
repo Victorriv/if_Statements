@@ -86,11 +86,12 @@ if (time < 12){
 
            }
            else if(age == 0){
-            console.log("");
+
             resultElement.textContent = `you cant enter this site, you were just born`;
            }
            else if(age >= 18){
-            console.log("You are old enough to enter this site");
+            resultElement.textContent =`You are old enough to enter this site`
+            
            }
            else if (age < 0){
             console.log("Your age cant be below 0");

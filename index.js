@@ -99,7 +99,8 @@ if (time < 12){
            }
            
            else{
-            console.log("You must be 18+ to enter this site");
+            resultElement.textContent = `Our age cant be below 0`
+
     
            }
     
